@@ -19,4 +19,4 @@ Create a Run configuration with these settings
 * add `--env=jsdom` as an application parameter
 * add `CI=true` as an environment variable (so all tests will run instead of running in <em>watch</em> mode)
 
-This project is part of [https://justideas.io/debugging-tests-…create-react-app/](https://justideas.io/debugging-tests-…create-react-app/)
+This project is part of [https://justideas.io/debugging-tests-in-webstorm-and-create-react-app/](https://justideas.io/debugging-tests-in-webstorm-and-create-react-app/)
