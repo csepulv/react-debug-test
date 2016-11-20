@@ -15,6 +15,6 @@ Generally, you
 Create a Run configuration with these settings
 * set babel-node as node interpreter
 * add `--presets=babel-preset-es2015` as a node parameter
-* node_modules/react-scripts/scripts/test.js
+* `node_modules/react-scripts/scripts/test.js` as JavaScript file to run
 * add `--env=jsdom` as an application parameter
 * add `CI=true` as an environment variable (so all tests will run instead of running in <em>watch</em> mode)
