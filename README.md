@@ -2,15 +2,15 @@
 
 `npm install`
 
-Open the project in WebStorm. 
+Open the project in WebStorm.
 * Browse to `App.test.js`. Set a breakpoint (line 6 or 7, for example)
 * Run the `Tests` in Debug mode
 
-If all goes well, your breakpoint should get hit. 
+If all goes well, your breakpoint should get hit.
 
 As a note: this has only been tested with Node.js 6.9 (and higher). I am not sure if it will work with an older version.
 
-Generally, you 
+Generally, you
 
 Create a Run configuration with these settings
 * set babel-node as node interpreter
@@ -18,3 +18,5 @@ Create a Run configuration with these settings
 * `node_modules/react-scripts/scripts/test.js` as JavaScript file to run
 * add `--env=jsdom` as an application parameter
 * add `CI=true` as an environment variable (so all tests will run instead of running in <em>watch</em> mode)
+
+This project is part of [https://justideas.io/?p=374&preview=true](https://justideas.io/?p=374&preview=true)
