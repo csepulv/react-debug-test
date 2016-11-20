@@ -13,6 +13,5 @@ build
 .DS_Store
 .env
 npm-debug.log
-.idea/workspace.xml
 .idea/tasks.xml
 .idea/vcs.xml
